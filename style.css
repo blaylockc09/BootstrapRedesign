@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* .container {
+	background-color: rgba(255,198,0,.25);
+	padding: 20px;
+	min-height: 20px;
+	margin-top: 20px;
+	border: solid 2px #ffc600;
+}
+
+.row {
+	background-color: rgba(150,0,255,.25);
+	padding: 20px;
+	min-height: 75px;
+	border: solid 2px #9600ff;
+}
+ */
+.col-1, .col-2, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+	
+	padding: 20px;
+	min-height: 75px;
+	
+}
+
+.col-md-1, .col-md-2, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	
+	padding: 20px;
+	min-height: 75px;
+
+}
+
+.col-sm-1, .col-sm-2, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+	
+	padding: 20px;
+	min-height: 75px;
+
+}
+
+.card-img-topNew{ 
+	margin: auto;
+
+	
+}
+
+.navbar {
+	background-color: black;
+	color: white;
+	
+}
+
+.navbar :visited {
+	color: white;
+}
+
+.dropdown-toggle {
+	color: white;
+}
+
+.navbar-nav :hover {
+	background-color:  rgb(143, 1, 1);
+}
+
+/* .dropdown-toggle:hover {
+	color: rgb(143, 1, 1)
+} */
+
+#searchBar {
+	width: 315px;
+	padding-left: 15px;
+}
+
+#searchButton {
+	border-color: rgb(143, 1, 1);
+	background-color: rgb(143, 1, 1);
+	color: white;
+	padding-right: 15px ;
+}
+
+.btn-primary {
+	border-color: rgb(143, 1, 1);
+	background-color: rgb(143, 1, 1);
+	color: white;
+	padding-right: 15px ;
+	margin: auto;
+	display: block;
+}
+
+#links {
+	background-color: black;
+	color: white;
+	display: none;
+
+}
+
+.dropdown-item {
+	color: white;
+}
+
+#links a{
+	
+	color: white;
+}
+
+:visited {
+	color: white;
+}
+
+.dropdown-menu.show {
+	background-color: black;
+}
+
+h3 {
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+}
+
+p {
+	padding: 23px;
+}
+
+p span {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.card-body p {
+	text-align: center;
+}
+
+.article {
+	margin: 0 15em;
+	text-align: center;
+	padding: 0em;
+}
+
+.article ul {
+	padding: 0em;
+}
+
+footer {
+	background-color: black;
+	color: white;
+}
+
+header {
+	background-color: rgb(73, 1, 1);
+	color: white;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: auto;
+	padding: 15px;
+	
+}
+
+form-control mr-sm-2  {
+  width: 315px;
+}
+
+.hiddenLinks {
+	display: none;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+ul#horizontal-list li {
+	display: inline;
+}
+
+.cardNew{
+	margin: auto;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	position:inherit;
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	min-width:0;
+	word-wrap:break-word;background-color:#fff;
+	background-clip:border-box;
+	
+	
+}
+
+.banner{
+	padding: 15px;
+	display: table;
+	margin: auto;
+	position: relative;
+}
+
+.LmrhR {
+    color:white);
+    line-height: 1.625;
+    -webkit-font-smoothing: antialiased;
+    font-family: CNN, "Helvetica Neue", Helvetica, Arial, Utkal, sans-serif;
+    font-size: 16px;
+    text-align: center;
+	font-weight: 500;
+	margin: auto;
+	display: table;
+	
+}
+
+.cApVqV {
+	margin-top: 24px;
+	margin-bottom: 24px;
+	display: block;
+	font-size: .9375em;
+	line-height: 1.6;
+	display: inline-flex;
+	color: white;
+
+}
+.iItFDo {
+	display: inline-flex;
+	padding: 10px;
+}
+
+#headlines {
+	color: black;
+
+}
+
+#carimage{
+ display: block;
+ height: 60%;
+ width: 60%;
+ margin: auto;
+ padding: 35px;
+}
+
+.morestories {
+	display: inline-block;
+}
+
+#videoplayer {
+	width: auto;
+}
+
+.btn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .btn span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .btn:hover span {
+	padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+
+  .example1 {
+	height: 50px;  
+	overflow: hidden;
+	position: relative;
+	background-color: black
+   }
+   .example1 h3 {
+	font-size: 3em;
+	color: white;
+	position: absolute;
+	width: auto;
+	height: 100%;
+	margin: auto;
+	line-height: 50px;
+	text-align: center;
+	/* Starting position */
+	-moz-transform:translateX(100%);
+	-webkit-transform:translateX(100%);    
+	transform:translateX(100%);
+	/* Apply animation to this element */  
+	-moz-animation: example1 30s linear infinite;
+	-webkit-animation: example1 30s linear infinite;
+	animation: example1 30s linear infinite;
+   }
+   /* Move it (define the animation) */
+   @-moz-keyframes example1 {
+	0%   { -moz-transform: translateX(100%); }
+	100% { -moz-transform: translateX(-100%); }
+   }
+   @-webkit-keyframes example1 {
+	0%   { -webkit-transform: translateX(100%); }
+	100% { -webkit-transform: translateX(-100%); }
+   }
+   @keyframes example1 {
+	0%   { 
+	-moz-transform: translateX(100%); /* Firefox bug fix */
+	-webkit-transform: translateX(100%); /* Firefox bug fix */
+	transform: translateX(100%);       
+	}
+	100% { 
+	-moz-transform: translateX(-100%); /* Firefox bug fix */
+	-webkit-transform: translateX(-100%); /* Firefox bug fix */
+	transform: translateX(-100%); 
+	}
+@media screen and (min-width: 1024px){
+	.LmrhR {
+		text-align: left;	
+	}
+
+}
